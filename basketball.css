@@ -1,0 +1,419 @@
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display:flex;
+    align-items: center;
+}
+.logo{
+    width: 40%;
+    font-size: 40px;
+    padding-left: 50px;
+}
+.logo a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.logo a:hover{
+    text-decoration: underline rgb(19, 131, 217);
+    color: aqua;
+}
+.img7{
+    display: none;
+}
+.img8{
+    display: none;
+}
+.img9{
+    display:none;
+}
+.type{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.type a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 30px;
+}
+.type a:hover{
+    text-decoration:underline ;
+
+}
+.small-box{
+    width: 150px;
+    background-color: black;
+    height: 130px;
+    position: absolute;
+    top: 102px;
+    left: -150px;
+    display: none;
+    transition: all 0.25s linear;
+    z-index: 4;
+}
+.small-box ul{
+    padding-left: 0;
+}
+.small-box ul li{
+    list-style: none;
+    height: 28px;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    z-index: 5;
+}
+.main{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(42, 58, 70);
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.img1{
+    width: 30%;
+    height: 280px;
+    padding-bottom: 40px;
+    background-image: url("https://th.bing.com/th/id/R.651f292ef9dac0db4fcd34c3f1016acb?rik=wc2Twh5V2mSFKA&riu=http%3a%2f%2fcdn.chatsports.com%2fthumbnails%2f2176-11845-original.jpeg&ehk=6oQ0K8zAf9vFEKJ0qv%2bRfggHNrJamjCkHaK2pueMsIY%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+text-align: center;
+margin-bottom: 20PX;
+font-size: 40px;
+    color: rgb(42, 53, 53);
+    border: 2px solid rgb(79, 85, 90);
+    transition: all 0.25s linear;
+}
+.img1:hover{
+    transform: scale(1.1);
+}
+
+.img2{
+    width: 30%;
+    height: 280px;
+    padding-bottom: 40px;
+    background-image: url("https://th.bing.com/th/id/R.160e5a0cd82f2c994c773a170b4e8a63?rik=kVw1aQbgpt8GAg&riu=http%3a%2f%2fstatic.businessinsider.com%2fimage%2f589c9d0b6e09a822008b635f%2fimage.jpg&ehk=hLqLPi%2b%2bfZHivDH9AMWrKAl5wdQ%2fn80yQtpRDAmL%2fxM%3d&risl=1&pid=ImgRaw&r=0");
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+text-align: center;
+font-size: 40px;
+    color: rgb(42, 53, 53);
+    border: 2px solid rgb(79, 85, 90);
+    transition: all 0.25s linear;
+}
+.img2:hover{
+    transform: scale(1.1);
+}
+
+.img3{
+    width: 30%;
+    height: 280px;
+    padding-bottom: 40px;
+    background-image: url("https://th.bing.com/th/id/OIP.g2brk9UAjp8yrFwvacdDSgHaJw?w=3285&h=4325&rs=1&pid=ImgDetMain");
+    background-size: cover;
+text-align: center;
+margin-bottom: 20px;
+font-size: 40px;
+    color: rgb(42, 53, 53);
+    border: 2px solid rgb(79, 85, 90);
+    transition: all 0.25s linear;
+}
+.img3:hover{
+    transform: scale(1.1);
+}
+
+.img4{
+    width: 30%;
+    height: 280px;
+    padding-bottom: 40px;
+    background-image: url("https://th.bing.com/th/id/OIP.542wyv7eh0mn9eqKlsft_AHaF7?w=1200&h=960&rs=1&pid=ImgDetMain");
+    background-size: cover;
+text-align: center;
+font-size: 40px;
+margin-bottom: 20PX;
+    color: rgb(42, 53, 53);
+    border: 2px solid rgb(79, 85, 90);
+    transition: all 0.25s linear;
+}
+
+.img4:hover{
+    transform: scale(1.1);
+}
+
+.img5{
+    width: 30%;
+    height: 280px;
+    padding-bottom: 40px;
+    background-image: url("https://filmdaily.co/wp-content/uploads/2020/05/online-basketball_lede.jpg");
+    background-size:cover;
+text-align: center;
+font-size: 40px;
+margin-bottom: 20PX;
+    color: rgb(42, 53, 53);
+    border: 2px solid rgb(79, 85, 90);
+    transition: all 0.25s linear;
+}
+
+.img5:hover{
+    transform: scale(1.1);
+}
+
+.img6{
+    width: 30%;
+    height: 280px;
+    padding-bottom: 40px;
+    background-image: url("https://www.games-eshop.com/wp-content/uploads/2020/05/bask-2-2048x1365.jpg");
+    background-size: cover;
+text-align: center;
+font-size: 40px;
+margin-bottom: 20PX;
+    color: rgb(42, 53, 53);
+    border: 2px solid rgb(79, 85, 90);
+    transition: all 0.25s linear;
+}
+
+.img6:hover{
+    transform: scale(1.1);
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-color:rgba(42, 58, 70, 0.853);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.foot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+padding-bottom: 30px;
+}
+.foot i{
+    font-size: 40px;
+    color: rgb(42, 58, 70);
+    font-weight: 700;
+    margin-right: 20px;
+}
+.categories{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: all 1s;
+}
+.categories a{
+    text-decoration: none;
+    color: initial;
+}
+.categories li{
+    list-style-type: none;
+}
+.categories li:hover{
+    color: white;
+}
+@media(min-width:100px) and (max-width:400px){
+    .small-box{
+        display: block;
+    }
+    
+   .type{
+    display: none;
+   }
+   .logo{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .nav i{
+    display: inline-block;
+    columns: white;
+   }
+   .icon-box{
+    width: 30px;
+    display: block;
+    margin: 0px 10px;
+   }
+   .icon{
+    width: 100%;
+    height: 0px;
+    border: 2px solid white;
+    margin: 4px 0px;
+   }
+   .main{
+    height: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+   .img1{
+    height: 100px;
+    background-size:100% 100%;
+    margin:10px;
+   }
+   .img2{
+    height: 100px;
+    background-size:100% 100%;
+margin:10px;
+   }
+   .img3{
+    height: 100px;
+    background-size:100% 100%;
+margin:10px;
+   }
+   .img4{
+    height: 100px;
+    background-size:100% 100%;
+margin:10px;
+   }
+   .img5{
+    height: 100px;
+    background-size:100% 100%;
+margin:10px;
+   }
+   .img6{
+    height: 100px;
+    background-size:100% 100%;
+   margin:10px; 
+   }
+   .img7{
+    height: 100px;
+    background-size:100% 100%;
+   margin:10px; 
+   }
+   .img8{
+    height: 100px;
+    background-size:100% 100%;
+   margin:10px; 
+   }
+   .img9{
+    height: 100px;
+    background-size:100% 100%;
+   margin:10px; 
+   }
+   .img610{
+    height: 100px;
+    background-size:100% 100%;
+   margin:10px; 
+   }
+   .categories{
+    font-size: 10px;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+   }
+   .categories a{
+    font-size: 10px;
+   }
+   .foot{
+    padding-bottom: 10px;
+   }
+   .foot i{
+    font-size: 20px;
+   }
+   footer{
+    padding-bottom: 10px;
+    height: 100%;
+   }
+   ul{
+    padding: 0px;
+   }
+}
+@media(min-width:400px) and (max-width:900px) {
+    .small-box{
+        display: block;
+    }
+    .type{
+     display: none;
+    }
+    .logo{
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    .nav i{
+     display: inline-block;
+     columns: white;
+    }
+    .icon-box{
+     width: 30px;
+     display: block;
+     margin: 0px 10px;
+    }
+    .icon{
+     width: 100%;
+     height: 0px;
+     border: 2px solid white;
+     margin: 4px 0px;
+    }
+    .main{
+     height: 100%;
+     padding-top: 10px;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+    }
+    .img1{
+     height: 140px;
+     background-size:100% 100%;
+     margin-bottom:10px;
+    }
+    .img2{
+     height: 140px;
+     background-size:100% 100%;
+ margin-bottom:10px;
+    }
+    .img3{
+     height: 140px;
+     background-size:100% 100%;
+ margin-bottom:10px;
+    }
+    .img4{
+     height: 140px;
+     background-size:100% 100%;
+ margin-bottom:10px;
+    }
+    .img5{
+     height: 140px;
+     background-size:100% 100%;
+ margin-bottom:10px;
+    }
+    .img6{
+     height: 140px;
+     background-size:100% 100%;
+    margin-bottom:10px; 
+   
+    }
+    .categories{
+     font-size: 10px;
+     width: 100%;
+     display:flex;
+     justify-content: space-around;
+    }
+    .categories a{
+     font-size: 10px;
+    }
+    .foot{
+     padding-bottom: 10px;
+    }
+    .foot i{
+     font-size: 20px;
+    }
+    footer{
+     padding-bottom: 10px;
+     height:100%;
+    }
+    ul{
+     padding: 0px;
+    }
+    
+ }

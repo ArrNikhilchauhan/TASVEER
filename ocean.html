@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean</title>
+    <link rel="stylesheet" href="ocean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+   
+      const categories=()=>{
+
+        if(document.getElementById("category").style.left==='-150px'){
+          document.getElementById("category").style.left='10px';
+        }
+        else{
+          document.getElementById("category").style.left ='-150px'
+        }
+      }
+    </script>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="icon-box" onclick="categories()">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+      </div>
+      <div class="small-box" id="category" style="left: -150px;" >
+        <ul>
+          <li>SPORTS</li>
+          <li>NATURE</li>
+          <li>ELECTRONICS</li>
+          <li>ANIMALS</li>
+        </ul>
+      </div>
+      <div class="logo">
+        <p><a href="/code-clause project 1/home.html">TASVEER</a></p>
+      </div>
+      <div class="type">
+        <div><a href="sports.html">Sports</a></div>
+        <div><a href="/code-clause project 1/Nature.html">Nature</a></div>
+        <div><a href="/code-clause project 1/Electronics.html">Electronics</a></div>
+        <div><a href="/code-clause project 1/Animal.html">Animals</a></div>
+      </div>
+    </div>
+   </header>
+   <div class="main">
+    <div class="img1">
+      <a href=""></a>
+    </div>
+    <div class="img2"></div>
+    <div class="img3"></div>
+    <div class="img4"></div>
+    <div class="img5"></div>
+    <div class="img6"></div>
+    <div class="img7"></div>
+    <div class="img8"></div>
+    <div class="img9"></div>
+   </div>
+   <footer>
+    <div class="categories">
+      <div class="game">
+        <ul>SPORTS
+          <a href="/code-clause project 1/cricket.html"><li>Cricket</li></a>
+          <a href="Football.html"><li>Football</li></a>
+          <a href="basketball.html"><li>Basketball</li></a>
+         <a href="boxing.html"><li>Boxing</li></a>
+          <a href="tennis.html"><li>Tennis</li></a>
+        </ul>
+      </div>
+      <div class="game">
+        <ul>NATURE
+          <a href="ocean.html"><li>Ocean and Seas</li></a>
+      <a href="desert.html"><li>Deserts</li></a>
+          <a href="hill.html"><li>Hilly Area</li></a>
+        </ul>
+      </div>
+      <div class="game">
+        <ul>ELECTRONICS
+         <a href="mobile.html"> <li>Mobiles</li></a>
+          <a href="headphones.html"><li>Headphones</li></a>
+          <a href="laptop.html"><li>Laptop</li></a>
+        <a href="appliance.html"><li>Home Appliance</li></a>
+        </ul>
+      </div>
+      <div class="game">
+        <ul>ANIMALS
+         <a href="wild.html"> <li>Wild Animals</li></a>
+          <a href="pet.html"><li>Pet Animals</li></a>
+        </ul>
+      </div>
+    </div>
+<div class="foot">
+  <a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</div>
+   </footer>
+</body>
+</html>
